@@ -1,5 +1,10 @@
+body {
+  padding: 0;
+}
+
 .wrapper {
-  margin: 20px;
+  /* margin: 20px; */
+  padding: 0;
 }
 
 .card-head {
@@ -11,10 +16,29 @@
   margin-top: 20px;
 }
 
+.contact-info {
+  padding-top: 40px;
+  text-align: center;
+}
+
 .skills-wrapper {
   display: flex;
-  padding: 40px;
+  padding: 80px;
   margin: auto;
   border-bottom: 2px solid black;
   text-align: center;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.my-4 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+.wrapper-footer {
+  margin: auto;
 }
