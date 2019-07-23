@@ -52,14 +52,22 @@ body {
 }
 
 .project-card {
+  display: flex;
   margin: 20px;
+  text-align: center;
+}
+
+.card-img-top {
+  height: 40vmin;
+  width: 100%;
+  border: solid 2px black;
 }
 
 .contact-wrapper {
   display: flex;
   justify-content: center;
   width: 100%;
-  background: black;
+  background: #353a3f;
   color: white;
 }
 
